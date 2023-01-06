@@ -12,6 +12,8 @@
     padding: 20px;
     border: none;
     border-radius: 7px;
+    margin: 0 auto;
+    display: block;
 }
 
 .primary-btn-color:hover{
@@ -51,10 +53,58 @@
     font-size: large;
     word-spacing: 1px;
     letter-spacing: .1px;
-    margin-bottom: 25px;
 }
 
-/* .donate-btn{
-    
-} */
+.donate-btn{
+    margin-top: 25px;
+}
 
+/* Donate Today Section */
+.donate-today-section{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 70px;
+    /* margin: 70px 400px  ; */
+}
+
+.donate-today-heading{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.donate-today-description{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.tk-box{
+    display: flex;
+    gap: 16px;
+}
+
+
+.select-tk{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgba(201, 164, 218, 0.258);
+    color:#707070;
+    width: 20%;
+    padding: 30px 0;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.other-amount{
+    color: #707070;
+    text-align: center;
+    margin-bottom: 10px;
+}
