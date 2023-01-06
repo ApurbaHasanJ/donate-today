@@ -67,15 +67,18 @@
     /* margin: 70px 400px  ; */
 }
 
-.donate-today-heading{
-    font-weight: 700;
-    font-size: 30px;
+.donate-today-heading,
+.donate-plan-heading{
+    font-weight: 900;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
 
 }
 
-.donate-today-description{
+.donate-today-description,
+.donate-plan-description{
+    color: #707070;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -107,4 +110,39 @@
     color: #707070;
     text-align: center;
     margin-bottom: 10px;
+}
+
+/* Our Donate plan Section */
+.our-donate-plan-section{
+        margin: 0 auto;
+        width: 50%;
+        margin-top: 120px;
+}
+
+.donation-container{
+    display: flex;
+    gap: 20px;
+}
+
+.donation-side{
+    border-radius: 5px;
+    padding: 55px 30px;
+}
+
+.food{
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.shelter{
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.education{
+    background: #FFF4D6;
+}
+
+.food-header,
+.shelter-header,
+.eduaction{
+    margin: 23px 0;
 }
