@@ -145,6 +145,57 @@
 
 .food-header,
 .shelter-header,
-.education{
+.education-header{
     margin: 23px 0;
+}
+
+
+/* Depends On Section */
+.depends-on-section{
+    display: flex;
+    width: 70%;
+    gap: 80px;
+    margin: 130px auto;
+    position: relative;
+}
+
+.documents-side{
+    /* position: absolute; */
+    /* top: 50%; */
+    /* width: 493px; */
+    /* height:374px ; */
+}
+
+.depends-on-header{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-top: 20px;
+
+}
+
+.depends-on-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-top: 20px;
+}
+
+.contribute-btn{
+    float: left;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.depends-on-img{
+    overflow: hidden;
+}
+.depends-on-img img{
+
+    /* overflow: hidden; */
+    width: 660px;
+    margin-left: 400px;
+    border-radius: 5px;
+    
 }
