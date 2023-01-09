@@ -22,7 +22,7 @@
 
 /* Header Styles */
 .banner{
-    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('/images/donation6.jpg') ;
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url('../images/donation6.jpg') ;
     height: 669px;
     background-repeat: no-repeat;
     background-size: cover;
